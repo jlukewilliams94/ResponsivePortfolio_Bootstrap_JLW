@@ -49,21 +49,21 @@ body {
     background: rgba(0, 0, 0, 0.3);
 }
 
-/* All pages jumbotron custom styling*/
+/* Jumbotron Custom Styling*/
 
 .jumtron {
-    padding: 2rem 2rem;
-    margin-bottom: 2rem;
-    border-radius: 3rem;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
     background-color: transparent;
     width: auto;
     font-size: 60px;
-    color: white;
+    color: hotpink;
     font-family: 'Bangers', cursive;
     letter-spacing: 0.1rem;
 }
      
-/* All pages universal font content styling */
+/* Font styling used across all pages for body of text */
 
 .universal-font {
     color: rgba(87, 95, 239, 1);
@@ -88,7 +88,7 @@ body {
     background-color: rgba(255,255,255, 0.76);
     text-align: center;
     margin: 1rem;
-    border-radius:3rem;  
+    border-radius:2rem;  
 }
 
 /* All page footer styling*/
