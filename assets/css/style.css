@@ -54,13 +54,17 @@ body {
 .jumtron {
     padding: 1rem 1rem;
     margin-bottom: 1rem;
-    border-radius: 2rem;
     background-color: transparent;
     width: auto;
-    font-size: 60px;
-    color: hotpink;
-    font-family: 'Bangers', cursive;
-    letter-spacing: 0.1rem;
+}
+
+.jumtron-title {
+  background-color: black;
+  font-size: 60px;
+  color: hotpink;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 0.1rem;
+  border-radius: 2rem;
 }
      
 /* Font styling used across all pages for body of text */
@@ -71,7 +75,7 @@ body {
     line-height: 1.5;
     font-family: 'Bebas Neue', cursive;
     padding:15px;
-  }
+}
 
 /* About me profile image styling */
 
