@@ -48,3 +48,18 @@ body {
     top: 0;
     background: rgba(0, 0, 0, 0.3);
   }
+
+/* All pages jumbotron custom styling*/
+
+  .jumtron {
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 3rem;
+    background-color: transparent;
+    width: auto;
+    font-size: 60px;
+    color: white;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 0.1rem;
+  }
+     
