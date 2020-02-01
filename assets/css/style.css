@@ -117,3 +117,14 @@ body {
   color: hotpink;
   font-family: 'Bangers', cursive;
 }
+
+/* Contact.html contact form styling*/
+
+.contact-me {
+  text-align: left;
+  background-color: rgba(255,255,255, 0.76);
+  padding: 15px;
+  height: auto;
+  width: auto;
+  border-radius: 2rem;
+}
