@@ -30,32 +30,43 @@ body {
 /* index.html background styling w/ image url */
 
 .about-me-background {
-    background-image: url('https://images.unsplash.com/photo-1544738502-849ab3c63e50?ixlib=rb-1.2.1&auto=format&fit=crop&w=1027&q=80');
-    min-height: 720px;
-    position: relative;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1544738502-849ab3c63e50?ixlib=rb-1.2.1&auto=format&fit=crop&w=1027&q=80');
+  min-height: 720px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* contact.html background styling w/ image url*/
+
+.contact-background{
+  background-image: url('https://images.unsplash.com/photo-1515675533504-0975e377ba13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  min-height: 720px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* All pages background overlay to darken background image */
 
 .overlay {
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 /* Jumbotron Custom Styling*/
 
 .jumtron {
-    padding: 1rem 1rem;
-    margin-bottom: 1rem;
-    background-color: transparent;
-    width: auto;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  width: auto;
 }
 
 .jumtron-title {
@@ -70,39 +81,39 @@ body {
 /* Font styling used across all pages for body of text */
 
 .universal-font {
-    color: rgba(87, 95, 239, 1);
-    font-size: 1.3rem;
-    line-height: 1.5;
-    font-family: 'Bebas Neue', cursive;
-    padding:15px;
+  color: rgba(87, 95, 239, 1);
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-family: 'Bebas Neue', cursive;
+  padding:15px;
 }
 
 /* About me profile image styling */
 
 .about-me-profile-img {
-    height:auto;
-    width:auto;
-    margin: 15px;
-    padding: 1rem;
+  height:auto;
+  width:auto;
+  margin: 15px;
+  padding: 1rem;
 }
 
 /* About me container background styling*/
 
 .about-me-container {
-    background-color: rgba(255,255,255, 0.76);
-    text-align: center;
-    margin: 1rem;
-    border-radius:2rem;  
+  background-color: rgba(255,255,255, 0.76);
+  text-align: center;
+  margin: 1rem;
+  border-radius:2rem;  
 }
 
 /* All page footer styling*/
 
 #footer-cr {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-    color: hotpink;
-    font-family: 'Bangers', cursive;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: hotpink;
+  font-family: 'Bangers', cursive;
 }
