@@ -128,3 +128,16 @@ body {
   width: auto;
   border-radius: 2rem;
 }
+
+.button-contact {
+  margin: 1rem;
+  right:  50%;
+  vertical-align: middle;
+  background-color: black;
+  padding: 0.375rem .75rem;
+  font-size: 1.5rem;
+  line-height: 2.0;
+  border-radius: .25rem;
+  font-family: 'Bangers', cursive;
+  color:hotpink;
+}
