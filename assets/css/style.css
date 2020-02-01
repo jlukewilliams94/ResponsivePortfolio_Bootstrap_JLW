@@ -47,11 +47,11 @@ body {
     left: 0;
     top: 0;
     background: rgba(0, 0, 0, 0.3);
-  }
+}
 
 /* All pages jumbotron custom styling*/
 
-  .jumtron {
+.jumtron {
     padding: 2rem 2rem;
     margin-bottom: 2rem;
     border-radius: 3rem;
@@ -61,5 +61,32 @@ body {
     color: white;
     font-family: 'Bangers', cursive;
     letter-spacing: 0.1rem;
-  }
+}
      
+/* All pages universal font content styling */
+
+.universal-font {
+    color: rgba(87, 95, 239, 1);
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-family: 'Bebas Neue', cursive;
+    padding:15px;
+  }
+
+/* About me profile image styling */
+
+.about-me-profile-img {
+    height:auto;
+    width:auto;
+    margin: 15px;
+    padding: 1rem;
+}
+
+/* About me container background styling*/
+
+.about-me-background {
+    background-color: rgba(255,255,255, 0.76);
+    text-align: center;
+    margin: 1rem;
+    border-radius:3rem;  
+  }
