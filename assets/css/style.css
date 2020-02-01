@@ -84,9 +84,9 @@ body {
 
 /* About me container background styling*/
 
-.about-me-background {
+.about-me-container {
     background-color: rgba(255,255,255, 0.76);
     text-align: center;
     margin: 1rem;
     border-radius:3rem;  
-  }
+}
