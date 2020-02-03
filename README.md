@@ -1,6 +1,7 @@
 # ResponsivePortfolio_Bootsrap_JLW
 
-## GITHUB URL: https://jlukewilliams94.github.io/ResponsivePortfolio_Bootstrap_JLW/portfolio.html
+GITHUB URL: 
+## https://jlukewilliams94.github.io/ResponsivePortfolio_Bootstrap_JLW/portfolio.html
 
 ### Websites Responsive Features 
 
@@ -11,6 +12,7 @@ index.html,
 contact.html,
 
 1. Navigation Bar
+
 One of the main boostrap features of this website is the responsive navigation bar. 
 
 When the website is on a full screen desktop or laptop you can see Jluke Williams on the left and the individual page links on the right of the nav bar. 
@@ -27,4 +29,5 @@ Another feature of this page is the responsive images on the portfolio page (por
 When the website on on a smartphone or tablet you can see that the thumbnails are split into 5 seperate rows with 1 thumbnail per row. 
 
 3. Responsive Form
+
 A final feature is the responsive contact form on contact page (contact.html). When the screen size changes the shape layout of the contact form changes with it. 
