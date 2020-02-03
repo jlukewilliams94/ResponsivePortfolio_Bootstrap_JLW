@@ -1,3 +1,5 @@
+/* Uniform Styling for all html pages*/
+
 * {
     padding: 0;
     margin: 0;
@@ -27,40 +29,7 @@ body {
   justify-content: flex-end;
 }
 
-/* index.html background styling w/ image url */
-
-.about-me-background {
-  background-image: url('https://images.unsplash.com/photo-1544738502-849ab3c63e50?ixlib=rb-1.2.1&auto=format&fit=crop&w=1027&q=80');
-  min-height: 720px;
-  position: relative;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-/* contact.html background styling w/ image url*/
-
-.contact-background{
-  background-image: url('https://images.unsplash.com/photo-1515675533504-0975e377ba13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
-  min-height: 720px;
-  position: relative;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-/* portfolio.html background styling w/ image url*/
-
-.portfolio-background {
-  background-image: url('https://images.unsplash.com/photo-1453814260029-c415b1f0d905?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
-  min-height: 90%;
-  position: relative;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-  
-/* All pages background overlay to darken background image */
+/* Background overlay to darken background image */
 
 .overlay {
   position: absolute;
@@ -71,7 +40,7 @@ body {
   background: rgba(0, 0, 0, 0.3);
 }
 
-/* Jumbotron Custom Styling*/
+/* Jumbotron Custom Styling with Google Font*/
 
 .jumtron {
   padding: 1rem 1rem;
@@ -89,7 +58,7 @@ body {
   border-radius: 2rem;
 }
      
-/* Font styling used across all pages for body of text */
+/* Font styling with Google Font */
 
 .universal-font {
   color: rgba(87, 95, 239, 1);
@@ -99,23 +68,7 @@ body {
   padding:15px;
 }
 
-/* About me profile image styling */
 
-.about-me-profile-img {
-  height:auto;
-  width:auto;
-  margin: 15px;
-  padding: 1rem;
-}
-
-/* About me container background styling*/
-
-.about-me-container {
-  background-color: rgba(255,255,255, 0.76);
-  text-align: center;
-  margin: 1rem;
-  border-radius:2rem;  
-}
 
 /* Footer Styling for all web pages*/
 
@@ -127,6 +80,71 @@ body {
   font-size: 30px;
   color: hotpink;
   font-family: 'Bangers', cursive;
+}
+
+/* Individual html page custom stylings */
+
+/* index.htmlprofile image styling */
+
+.about-me-profile-img {
+  height:auto;
+  width:auto;
+  margin: 15px;
+  padding: 1rem;
+}
+
+/* index.html background styling w/ image url */
+
+.about-me-background {
+  background-image: url('https://images.unsplash.com/photo-1544738502-849ab3c63e50?ixlib=rb-1.2.1&auto=format&fit=crop&w=1027&q=80');
+  min-height: 720px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* index.html container background styling*/
+
+.about-me-container {
+  background-color: rgba(255,255,255, 0.76);
+  text-align: center;
+  margin: 1rem;
+  border-radius:2rem;  
+}
+
+
+/* portfolio.html background styling w/ image url*/
+
+.portfolio-background {
+  background-image: url('https://images.unsplash.com/photo-1453814260029-c415b1f0d905?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  min-height: 90%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  
+/* portfolio.html: porfolio thumbnails styling*/
+
+.thumbnail {
+  padding: 15px;
+  box-align: center;
+  height: auto; 
+  width: auto; 
+  display: block;
+  margin: 1rem;
+}
+
+/* contact.html background styling w/ image url*/
+
+.contact-background{
+  background-image: url('https://images.unsplash.com/photo-1515675533504-0975e377ba13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  min-height: 720px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* contact.html: contact form styling*/
@@ -153,13 +171,3 @@ body {
   color:hotpink;
 }
 
-/* portfolio.html: porfolio thumbnails styling*/
-
-.thumbnail {
-  padding: 15px;
-  box-align: center;
-  height: auto; 
-  width: auto; 
-  display: block;
-  margin: 1rem;
-}
