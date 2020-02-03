@@ -117,7 +117,7 @@ body {
   border-radius:2rem;  
 }
 
-/* All page footer styling*/
+/* Footer Styling for all web pages*/
 
 #footer-cr {
   position: absolute;
@@ -129,7 +129,7 @@ body {
   font-family: 'Bangers', cursive;
 }
 
-/* Contact.html contact form styling*/
+/* contact.html: contact form styling*/
 
 .contact-me {
   text-align: left;
@@ -153,7 +153,7 @@ body {
   color:hotpink;
 }
 
-/* Porfolio Thumbnails styling*/
+/* portfolio.html: porfolio thumbnails styling*/
 
 .thumbnail {
   padding: 15px;
